@@ -13,7 +13,8 @@
 	@import "libs/skel";
 
 	@include skel-breakpoints((
-		wide: '(min-width: 961px) and (max-width: 1880px)',
+		/*wide: '(min-width: 961px) and (max-width: 1880px)',*/
+		wide: '(min-width: 1500px) and (max-width: 800px)',
 		normal: '(min-width: 961px) and (max-width: 1620px)',
 		narrow: '(min-width: 961px) and (max-width: 1320px)',
 		narrower: '(max-width: 960px)',
@@ -23,7 +24,8 @@
 	@include skel-layout((
 		reset: 'full',
 		boxModel: 'border',
-		grid: ( gutters: (40px, 40px) ),
+		/*grid: ( gutters: (40px, 40px) ),*/
+		grid: ( gutters: (100px, 100px) ),
 		conditionals: true,
 		containers: 1400px,
 		breakpoints: (
