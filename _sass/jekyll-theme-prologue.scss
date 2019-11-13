@@ -13,8 +13,8 @@
 	@import "libs/skel";
 
 	@include skel-breakpoints((
-		wide: '(min-width: 961px) and (max-width: 1880px)',
-		/*wide: '(min-width: 1500px) and (max-width: 800px)',*/
+		/*wide: '(min-width: 961px) and (max-width: 1880px)',*/
+		wide: '(min-width: 1500px) and (max-width: 2000px)',
 		normal: '(min-width: 961px) and (max-width: 1620px)',
 		narrow: '(min-width: 961px) and (max-width: 1320px)',
 		narrower: '(max-width: 960px)',
