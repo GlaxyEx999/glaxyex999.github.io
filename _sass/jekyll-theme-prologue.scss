@@ -1124,11 +1124,12 @@
 	flex-direction:row;
 	height:100px;
 	width:100%;
-	border:2px solid black;
+	border-bottom:1px solid black;
 }
 .left1{
 	width:70%;
 	height:100%;
+	border:1px solid red;
 }
 .right1{
 	height:100%;
