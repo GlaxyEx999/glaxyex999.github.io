@@ -1119,17 +1119,17 @@
 			}
 
 	}
-.row1{
+.row1{  
 	display:flex;
-	flex-direction:row;
-	height:100px;
-	width:100%;
-	border-bottom:1px solid #e3e3e3;
+	flex-direction:row;/* 保证每个item中的元素是按行排列的*/
+	height:100px;//每个item的高度
+	width:100%;//每个item的宽度
+	border-bottom:1px solid #e3e3e3;//设置边框：只设置底部bottom，边框宽1px，solid:实线，
 }
 .left1{
 	width:80%;
 	height:100%;
-	border:1px solid red;
+	border-right:1px solid #e3e3e3;
 }
 .right1{
 	height:100%;
