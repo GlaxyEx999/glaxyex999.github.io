@@ -1122,15 +1122,27 @@
 .row1{  
 	display:flex;
 	flex-direction:row;/* 保证每个item中的元素是按行排列的*/
-	height:100px;//每个item的高度
+	height:150px;//每个item的高度
 	width:100%;//每个item的宽度
 	border-bottom:1px solid #e3e3e3;//设置边框：只设置底部bottom，边框宽1px，solid:实线，
+	color:#888;
 }
 .left1{
 	width:80%;
 	height:100%;
 	border-right:1px solid #e3e3e3;
 }
+.left1 .title{
+	font-size:22pt;
+	font-weight:bold;	
+}
+.left1 .content{
+	text-align:left;
+}
+.left1 .date{
+	font-weight:bold;
+}
+
 .right1{
 	height:100%;
 }
